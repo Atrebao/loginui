@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "904561307429",
+    "project_id": "walltutorial-77132",
+    "storage_bucket": "walltutorial-77132.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904561307429:android:ff20b26c964b88b02f74cc",
+        "android_client_info": {
+          "package_name": "com.example.loginui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904561307429-89itetqngk2nb1ck00b7kkuij6oc1ian.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginui",
+            "certificate_hash": "fe6c3ce55c55b7a588aa143f78467e1cb4d6df14"
+          }
+        },
+        {
+          "client_id": "904561307429-f14kc2noqhjhqfid5jfo94tcd9fj5u33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvssZTyvAaL5imKbHDcrt_OWYy7agMuHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904561307429-f14kc2noqhjhqfid5jfo94tcd9fj5u33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

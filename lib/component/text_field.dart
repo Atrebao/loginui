@@ -1,0 +1,29 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:flutter/src/widgets/framework.dart';
+
+class MyTextField extends StatelessWidget {
+  final TextEditingController controller;
+  final String hintText;
+  final bool obscureText;
+  const MyTextField(
+      {super.key,
+      required this.controller,
+      required this.hintText,
+      required this.obscureText});
+
+  @override
+  Widget build(BuildContext context) {
+    return TextField(
+      controller: controller,
+      obscureText: obscureText,
+      decoration: InputDecoration(
+          enabledBorder: const OutlineInputBorder(
+              borderSide: BorderSide(color: Colors.white)),
+          fillColor: Colors.grey.shade200,
+          filled: true,
+          hintText: hintText),
+    );
+  }
+}
